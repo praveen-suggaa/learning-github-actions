@@ -1,0 +1,15 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Search Wikipedia"
+- inputText: "Tim cook"
+- tapOn:
+    index: 1
+    text: "Tim Cook"
+- scrollUntilVisible:
+    element: "Early life and education"
+    direction: DOWN
+- tapOn: "Save"
+- 
+#    when: "Save"
+- pressKey: "back"
